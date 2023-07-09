@@ -10,6 +10,6 @@
   "author": "James Cupcakes",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.4.0"
+    "axios": "1.1.0"
   }
 }
