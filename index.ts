@@ -13,13 +13,16 @@ axios.get(url).then(res=>{
 	const id = post.userId
 	const title = post.title
 	const body = post.body
+	printPost(id, title, body)
+})
+
+const printPost = (id: number, title: string, body: string) => {
 	console.log(`
 User ID: ${id}
 Title: ${title}
 Content: ${body}
 	`)
-})
-
+}
 /*
 {
   "userId": 1,
